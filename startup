@@ -1,0 +1,13 @@
+#!/bin/bash
+
+nitrogen --restore &
+
+xscreensaver -nosplash &
+
+polybar seashine-right-1 &
+polybar seashine-2 &
+polybar seashine-left-1 &
+
+picom &
+
+# redshift &
